@@ -37,6 +37,37 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		F29CA66420709EE8001ACDEF /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29CA66220709EE8001ACDEF /* MainInterface.storyboard */; };
+		F29CA66820709EE8001ACDEF /* MobileSharingEx.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F29CA65D20709EE8001ACDEF /* MobileSharingEx.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F29CA66D20709F44001ACDEF /* MobileSharingEx.m in Sources */ = {isa = PBXBuildFile; fileRef = F29CA66C20709F44001ACDEF /* MobileSharingEx.m */; };
+		F29CA6742070A101001ACDEF /* libcxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */; };
+		F29CA6752070A101001ACDEF /* libcxxreact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */; };
+		F29CA6762070A101001ACDEF /* libdouble-conversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29CA65020709E64001ACDEF /* libdouble-conversion.a */; };
+		F29CA6772070A101001ACDEF /* libdouble-conversion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29CA65220709E64001ACDEF /* libdouble-conversion.a */; };
+		F29CA6792070A101001ACDEF /* libfishhook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6841FA4F8DC00B85C8A /* libfishhook.a */; };
+		F29CA67A2070A101001ACDEF /* libjschelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */; };
+		F29CA67B2070A101001ACDEF /* libjschelpers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */; };
+		F29CA67D2070A101001ACDEF /* libjsinspector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29CA64820709E64001ACDEF /* libjsinspector.a */; };
+		F29CA67F2070A101001ACDEF /* libprivatedata.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29CA65420709E64001ACDEF /* libprivatedata.a */; };
+		F29CA6802070A101001ACDEF /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
+		F29CA6812070A101001ACDEF /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		F29CA6822070A101001ACDEF /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		F29CA6842070A101001ACDEF /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		F29CA6852070A101001ACDEF /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
+		F29CA6872070A101001ACDEF /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
+		F29CA6892070A101001ACDEF /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
+		F29CA68B2070A101001ACDEF /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
+		F29CA68D2070A101001ACDEF /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
+		F29CA68F2070A101001ACDEF /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		F29CA6902070A101001ACDEF /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
+		F29CA6922070A101001ACDEF /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
+		F29CA6932070A101001ACDEF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		F29CA6942070A101001ACDEF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		F29CA6952070A101001ACDEF /* libReactNativeShareExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29CA6732070A022001ACDEF /* libReactNativeShareExtension.a */; };
+		F29CA6962070A101001ACDEF /* libthird-party.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29CA64C20709E64001ACDEF /* libthird-party.a */; };
+		F29CA6972070A101001ACDEF /* libthird-party.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F29CA64E20709E64001ACDEF /* libthird-party.a */; };
+		F29CA6982070A101001ACDEF /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA51DF850E9000B6D8A /* libyoga.a */; };
+		F29CA6992070A101001ACDEF /* libyoga.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA71DF850E9000B6D8A /* libyoga.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -257,7 +288,91 @@
 			remoteGlobalIDString = 358F4ED71D1E81A9004DF814;
 			remoteInfo = RCTBlob;
 		};
+		F29CA64720709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BDC1FC498900052F4D5;
+			remoteInfo = jsinspector;
+		};
+		F29CA64920709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EBF21BFA1FC4989A0052F4D5;
+			remoteInfo = "jsinspector-tvOS";
+		};
+		F29CA64B20709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7ECE1E25DB7D00323FB7;
+			remoteInfo = "third-party";
+		};
+		F29CA64D20709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D3C1EBD27B6005632C8;
+			remoteInfo = "third-party-tvOS";
+		};
+		F29CA64F20709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 139D7E881E25C6D100323FB7;
+			remoteInfo = "double-conversion";
+		};
+		F29CA65120709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
+			remoteInfo = "double-conversion-tvOS";
+		};
+		F29CA65320709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
+			remoteInfo = privatedata;
+		};
+		F29CA65520709E64001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
+			remoteInfo = "privatedata-tvOS";
+		};
+		F29CA66620709EE8001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29CA65C20709EE8001ACDEF;
+			remoteInfo = MobileSharingEx;
+		};
+		F29CA6722070A022001ACDEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29CA66E2070A022001ACDEF /* ReactNativeShareExtension.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 41B5DE301D0B505800949BD5;
+			remoteInfo = ReactNativeShareExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F29CA65820709E64001ACDEF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F29CA66820709EE8001ACDEF /* MobileSharingEx.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
@@ -286,6 +401,11 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		F29CA65D20709EE8001ACDEF /* MobileSharingEx.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MobileSharingEx.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29CA66320709EE8001ACDEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		F29CA66520709EE8001ACDEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29CA66C20709F44001ACDEF /* MobileSharingEx.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobileSharingEx.m; sourceTree = "<group>"; };
+		F29CA66E2070A022001ACDEF /* ReactNativeShareExtension.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeShareExtension.xcodeproj; path = "../node_modules/react-native-share-extension/ios/ReactNativeShareExtension.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,6 +456,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29CA65A20709EE8001ACDEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29CA6742070A101001ACDEF /* libcxxreact.a in Frameworks */,
+				F29CA6752070A101001ACDEF /* libcxxreact.a in Frameworks */,
+				F29CA6762070A101001ACDEF /* libdouble-conversion.a in Frameworks */,
+				F29CA6772070A101001ACDEF /* libdouble-conversion.a in Frameworks */,
+				F29CA6792070A101001ACDEF /* libfishhook.a in Frameworks */,
+				F29CA67A2070A101001ACDEF /* libjschelpers.a in Frameworks */,
+				F29CA67B2070A101001ACDEF /* libjschelpers.a in Frameworks */,
+				F29CA67D2070A101001ACDEF /* libjsinspector.a in Frameworks */,
+				F29CA67F2070A101001ACDEF /* libprivatedata.a in Frameworks */,
+				F29CA6802070A101001ACDEF /* libRCTActionSheet.a in Frameworks */,
+				F29CA6812070A101001ACDEF /* libRCTAnimation.a in Frameworks */,
+				F29CA6822070A101001ACDEF /* libRCTAnimation.a in Frameworks */,
+				F29CA6842070A101001ACDEF /* libRCTBlob.a in Frameworks */,
+				F29CA6852070A101001ACDEF /* libRCTGeolocation.a in Frameworks */,
+				F29CA6872070A101001ACDEF /* libRCTImage.a in Frameworks */,
+				F29CA6892070A101001ACDEF /* libRCTLinking.a in Frameworks */,
+				F29CA68B2070A101001ACDEF /* libRCTNetwork.a in Frameworks */,
+				F29CA68D2070A101001ACDEF /* libRCTSettings.a in Frameworks */,
+				F29CA68F2070A101001ACDEF /* libRCTText.a in Frameworks */,
+				F29CA6902070A101001ACDEF /* libRCTVibration.a in Frameworks */,
+				F29CA6922070A101001ACDEF /* libRCTWebSocket.a in Frameworks */,
+				F29CA6932070A101001ACDEF /* libReact.a in Frameworks */,
+				F29CA6942070A101001ACDEF /* libReact.a in Frameworks */,
+				F29CA6952070A101001ACDEF /* libReactNativeShareExtension.a in Frameworks */,
+				F29CA6962070A101001ACDEF /* libthird-party.a in Frameworks */,
+				F29CA6972070A101001ACDEF /* libthird-party.a in Frameworks */,
+				F29CA6982070A101001ACDEF /* libyoga.a in Frameworks */,
+				F29CA6992070A101001ACDEF /* libyoga.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,13 +594,21 @@
 			isa = PBXGroup;
 			children = (
 				146834041AC3E56700842450 /* libReact.a */,
+				3DAD3EA31DF850E9000B6D8A /* libReact.a */,
 				3DAD3EA51DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
 				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
-				3DAD3EA31DF850E9000B6D8A /* libReact-tvOS.a */,
+				F29CA64820709E64001ACDEF /* libjsinspector.a */,
+				F29CA64A20709E64001ACDEF /* libjsinspector-tvOS.a */,
+				F29CA64C20709E64001ACDEF /* libthird-party.a */,
+				F29CA64E20709E64001ACDEF /* libthird-party.a */,
+				F29CA65020709E64001ACDEF /* libdouble-conversion.a */,
+				F29CA65220709E64001ACDEF /* libdouble-conversion.a */,
+				F29CA65420709E64001ACDEF /* libprivatedata.a */,
+				F29CA65620709E64001ACDEF /* libprivatedata-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -479,6 +642,7 @@
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				F29CA66E2070A022001ACDEF /* ReactNativeShareExtension.xcodeproj */,
 				5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */,
 				146833FF1AC3E56700842450 /* React.xcodeproj */,
 				00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */,
@@ -510,6 +674,7 @@
 				13B07FAE1A68108700A75B9A /* MobileSharing */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* MobileSharingTests */,
+				F29CA65E20709EE8001ACDEF /* MobileSharingEx */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 			);
@@ -525,6 +690,7 @@
 				00E356EE1AD99517003FC87E /* MobileSharingTests.xctest */,
 				2D02E47B1E0B4A5D006451C7 /* MobileSharing-tvOS.app */,
 				2D02E4901E0B4A5D006451C7 /* MobileSharing-tvOSTests.xctest */,
+				F29CA65D20709EE8001ACDEF /* MobileSharingEx.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -534,6 +700,24 @@
 			children = (
 				ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */,
 				2D16E6721FA4F8DC00B85C8A /* libRCTBlob-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29CA65E20709EE8001ACDEF /* MobileSharingEx */ = {
+			isa = PBXGroup;
+			children = (
+				F29CA66220709EE8001ACDEF /* MainInterface.storyboard */,
+				F29CA66520709EE8001ACDEF /* Info.plist */,
+				F29CA66C20709F44001ACDEF /* MobileSharingEx.m */,
+			);
+			path = MobileSharingEx;
+			sourceTree = "<group>";
+		};
+		F29CA66F2070A022001ACDEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29CA6732070A022001ACDEF /* libReactNativeShareExtension.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -567,10 +751,12 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				F29CA65820709E64001ACDEF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F29CA66720709EE8001ACDEF /* PBXTargetDependency */,
 			);
 			name = MobileSharing;
 			productName = "Hello World";
@@ -613,12 +799,31 @@
 			productReference = 2D02E4901E0B4A5D006451C7 /* MobileSharing-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F29CA65C20709EE8001ACDEF /* MobileSharingEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29CA66920709EE8001ACDEF /* Build configuration list for PBXNativeTarget "MobileSharingEx" */;
+			buildPhases = (
+				F29CA65920709EE8001ACDEF /* Sources */,
+				F29CA65A20709EE8001ACDEF /* Frameworks */,
+				F29CA65B20709EE8001ACDEF /* Resources */,
+				F29CA69A2070AA60001ACDEF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileSharingEx;
+			productName = MobileSharingEx;
+			productReference = F29CA65D20709EE8001ACDEF /* MobileSharingEx.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
@@ -634,6 +839,10 @@
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+					F29CA65C20709EE8001ACDEF = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -697,6 +906,10 @@
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
 				},
+				{
+					ProductGroup = F29CA66F2070A022001ACDEF /* Products */;
+					ProjectRef = F29CA66E2070A022001ACDEF /* ReactNativeShareExtension.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -704,6 +917,7 @@
 				00E356ED1AD99517003FC87E /* MobileSharingTests */,
 				2D02E47A1E0B4A5D006451C7 /* MobileSharing-tvOS */,
 				2D02E48F1E0B4A5D006451C7 /* MobileSharing-tvOSTests */,
+				F29CA65C20709EE8001ACDEF /* MobileSharingEx */,
 			);
 		};
 /* End PBXProject section */
@@ -828,10 +1042,10 @@
 			remoteRef = 3DAD3E981DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3DAD3EA31DF850E9000B6D8A /* libReact-tvOS.a */ = {
+		3DAD3EA31DF850E9000B6D8A /* libReact.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = "libReact-tvOS.a";
+			path = libReact.a;
 			remoteRef = 3DAD3EA21DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -912,6 +1126,69 @@
 			remoteRef = ADBDB9261DFEBF0700ED6528 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		F29CA64820709E64001ACDEF /* libjsinspector.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsinspector.a;
+			remoteRef = F29CA64720709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA64A20709E64001ACDEF /* libjsinspector-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsinspector-tvOS.a";
+			remoteRef = F29CA64920709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA64C20709E64001ACDEF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = F29CA64B20709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA64E20709E64001ACDEF /* libthird-party.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libthird-party.a";
+			remoteRef = F29CA64D20709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA65020709E64001ACDEF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = F29CA64F20709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA65220709E64001ACDEF /* libdouble-conversion.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libdouble-conversion.a";
+			remoteRef = F29CA65120709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA65420709E64001ACDEF /* libprivatedata.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprivatedata.a;
+			remoteRef = F29CA65320709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA65620709E64001ACDEF /* libprivatedata-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libprivatedata-tvOS.a";
+			remoteRef = F29CA65520709E64001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F29CA6732070A022001ACDEF /* libReactNativeShareExtension.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReactNativeShareExtension.a;
+			remoteRef = F29CA6722070A022001ACDEF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -946,6 +1223,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F29CA65B20709EE8001ACDEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29CA66420709EE8001ACDEF /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -971,6 +1256,19 @@
 			inputPaths = (
 			);
 			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		F29CA69A2070AA60001ACDEF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1014,6 +1312,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F29CA65920709EE8001ACDEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29CA66D20709F44001ACDEF /* MobileSharingEx.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1027,6 +1333,11 @@
 			target = 2D02E47A1E0B4A5D006451C7 /* MobileSharing-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
+		F29CA66720709EE8001ACDEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29CA65C20709EE8001ACDEF /* MobileSharingEx */;
+			targetProxy = F29CA66620709EE8001ACDEF /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1037,6 +1348,14 @@
 			);
 			name = LaunchScreen.xib;
 			path = MobileSharing;
+			sourceTree = "<group>";
+		};
+		F29CA66220709EE8001ACDEF /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29CA66320709EE8001ACDEF /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1083,6 +1402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = MobileSharing/Info.plist;
@@ -1101,6 +1421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = MobileSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1284,6 +1605,92 @@
 			};
 			name = Release;
 		};
+		F29CA66A20709EE8001ACDEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/React/**",
+					"$(SRCROOT)/../node_modules/react-native-share-extension/ios/**",
+				);
+				INFOPLIST_FILE = MobileSharingEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.MobileSharing.MobileSharingEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29CA66B20709EE8001ACDEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../node_modules/React/**",
+					"$(SRCROOT)/../node_modules/react-native-share-extension/ios/**",
+				);
+				INFOPLIST_FILE = MobileSharingEx/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.MobileSharing.MobileSharingEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1328,6 +1735,15 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29CA66920709EE8001ACDEF /* Build configuration list for PBXNativeTarget "MobileSharingEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29CA66A20709EE8001ACDEF /* Debug */,
+				F29CA66B20709EE8001ACDEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
